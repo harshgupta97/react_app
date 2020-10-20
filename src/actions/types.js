@@ -1,0 +1,8 @@
+export const SET_NAVIGATION = 'SET_NAVIGATION';
+export const SET_NAVIGATIONS = 'SET_NAVIGATIONS';
+export const GET_NAVIGATION = 'GET_NAVIGATION';
+export const GET_NAVIGATIONS = 'GET_NAVIGATIONS';
+export const NAVIGATION_BACK = 'NAVIGATION_BACK';
+
+export const SET_ITEMS = 'SET_ITEMS';
+export const GET_ITEMS = 'GET_ITEMS';
