@@ -19,32 +19,18 @@ function App() {
         </div>
         <div className="mt-8">
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/bills">
-              <Bills />
-            </Route>
-            <Route path="/invoices">
-              <Invoices />
-            </Route>
-            <Route path="/settings">
-              <Settings />
-            </Route>
-            <Route path="/payment">
-              <Payments />
-            </Route>
-            <Route path="/items">
-              <Items />
-            </Route>
-            <Route path="/report">
-              <Reports />
-            </Route>
+            <Route exact path="/" component={Home} />
+            <Route path="/bills" component={Bills} />
+            <Route path="/invoices" component={Invoices} />
+            <Route path="/settings" component={Settings} />
+            <Route path="/payment" component={Payments} />
+            <Route path="/items" component={Items} />
+            <Route path="/report" component={Reports} />
           </Switch>
         </div>
         <AppBottomNav />
       </Provider>
-    </div>
+    </div >
   );
 }
 
