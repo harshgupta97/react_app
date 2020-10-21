@@ -56,7 +56,7 @@ export default class HomeScreenView extends Component {
                 </Row>
                 <Row>
                     <Col span={24} xl={6} xs={24}>
-                        <AppCard>
+                        <AppCard style="app-bg-success">
                             <Title level={4} className="text-success">Record Payment</Title>
                         </AppCard>
                     </Col>
