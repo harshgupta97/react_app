@@ -37,6 +37,10 @@
   background-color: #ffc3c9;
 }
 
+.app-bg-success {
+  background-color: #c3ffe5;
+}
+
 .add-item {
   border-radius: 25px;
 }
