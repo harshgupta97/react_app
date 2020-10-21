@@ -44,3 +44,9 @@
 .add-item {
   border-radius: 25px;
 }
+
+.vertical-line {
+  margin-top: 15px;
+  border-left: 1px solid #c1c1c1;
+  height: 20px;
+}
