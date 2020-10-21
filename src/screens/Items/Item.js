@@ -21,12 +21,14 @@ export default class Item extends Component {
                             <Text type="secondary">SKU: {item.SKU}</Text>
                             <Divider />
                             <Row>
-                                <Col span={12}>
+                                <Col span={10}>
                                     <Text type="secondary">HSN Number</Text><br />
                                     <Text type="secondary">{item.HSN}</Text>
-                                    <div className="vl"></div>
                                 </Col>
-                                <Col span={12}>
+                                <Col span={4}>
+                                    <div className="vertical-line"></div>
+                                </Col>
+                                <Col span={10}>
                                     <Text type="secondary">Item Price</Text><br />
                                     <Text type="secondary">{item.price_fmt}</Text>
                                 </Col>
